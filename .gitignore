@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data files (too large for git — use Git LFS or share via link)
+olist/
+data/raw/
+data/clean/
+
+# Logs and reports (generated at runtime)
+crawl_logs.txt
+cleaning_report.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
